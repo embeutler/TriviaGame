@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Em ROCKS</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Unicorn Quiz</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-<img src=".../assets/images/top.jpg" alt="unicorn" style="width:80px;height:90px;">
-    <p>
+	<jumbotran>Unicorn Trivia </jumbotran>
+ <img src="./assets/Images/back.jpg" alt="description" height="48" width="100" />
+	<script type="text/javascript" src="./assets/javascript/app.js"> </script>
+
+	<fieldset id="username">
+		<h1>Enter Your Unicorn Name</h1>
+		<b>Username:</b><input maxlength=24 type="text" id="textuser" />
+		<br />
+		<br />
+		<button onclick=userEnter()>Enter</button>
+	</fieldset>
+	<div id="gamestart" style="display: none">
+		<h2 id="namedisplay"></h2>
+		<span style="color: palegreen"><b>Health: </b></span><b id="healthval"></b><progress id="healthbar" max=100
+			value=100></progress><b style="color: red" id="takehealth"></b><br /><b>Deaths:</b><b id="deathsc"></b>
+	</div>
+	<br />
+	<br />
+	<div style="display: none" id="firstq">
+		<h2>1. Do you love unicorns?</h2>
+		<button onclick=wrongans()>no way</button>
+		<button onclick=correct1()>LOVE</button>
+		<button onclick=wrongans()>not sure</button>
+	</div>
+	<div style="display: none" id="secondq">
+		<h2>2. What is the Most Popular color for unicorns?</h2>
+		<button onclick=correct2()>white</button>
+		<button onclick=wrongans()>red</button>
+		<button onclick=wrongans()>green</button>
+		<button onclick=wrongans()>yellow</button>
+	</div>
+	<div style="display: none" id="thirdq">
+		<h2>3. What country still beleives unicorns are alive and the Great Leader is only one able to see them? </h2>
+		<button onclick=wrongans()>Russia</button>
+		<button onclick=correct3()>North Korea</button>
+		<button onclick=wrongans()>Sadui Arabia</button>
+		<button onclick=wrongans()>China</button>
+	</div>
+	<div style="display: none" id="fourthq">
+		<h2>4. Do unicorns have a horn ?</h2>
+		<button onclick=correct4()>Yes</button>
+		<button onclick=wrongans()>No</button>
+	</div>
+	<div style="display: none" id="fifthq">
+		<h2>5. "What is a unicorn fart?</h2>
+		<button onclick=wrongans()>slang for colored hair</button>
+		<button onclick=wrongans()>Rainbown cottoncandy</button>
+		<button onclick=wrongans()>Rainbow Glitter</button>
+		<button onclick=correct5()>a unicorn fart</button>
+	</div>
+	<div style="display: none" id="enddiv">
+		<h1 id="deathse" style="text-align: center; color: aquamarine;"></h1>
+		<h1 style="text-align: center; color: purple;">Thank You for Playing my Code! I will be updating it very soon!
+		</h1>
+		<h3 style="text-align: center">- AClue</h3>
+	</div>
+	<script type="text/javascript" src="./assets/javascript/app.js"> </script>
 
 </body>
+
 </html>
