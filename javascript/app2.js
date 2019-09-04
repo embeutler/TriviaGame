@@ -1,4 +1,3 @@
-
 var currentQuestion = 0;
 var viewingAns = 0;
 var correctAnswers = 0;
@@ -144,7 +143,7 @@ var iSelectedAnswer = [];
 
 function timedCount()
 	{
-		if(c == 125) 
+		if(c == 185) 
 		{ 
 			return false; 
 		}
@@ -160,7 +159,7 @@ function timedCount()
 					displayScore();
 					$('#iTimeShow').html('Quiz Time Completed!');
 					$('#timer').html("You scored: " + correctAnswers + " out of: " + questions.length);
-					c=125;
+					c=185;
 					$(document).find(".preButton").text("View Answer");
 					$(document).find(".nextButton").text("Play Again?");
 					quizOver = true;
@@ -173,13 +172,13 @@ function timedCount()
 		t = setTimeout(function()
 		{
 			timedCount()
-		},900);
+		},2000);
 	}
 	
 function displayCurrentQuestion() 
 {
 
-	if(c == 125) { c = 120; timedCount(); }
+	if(c == 185) { c = 180; timedCount(); }
     var question = questions[currentQuestion].question;
     var questionClass = $(document).find(".quizContainer > .question");
     var choiceList = $(document).find(".quizContainer > .choiceList");
