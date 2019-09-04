@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Lobster+Two&display=swap');
+body{
+    font-size: 20px;
+    font-family:  'Lobster', cursive;; 
+    color: rgb(12, 3, 9);
+    font-weight: 300;
+    text-align: center;
+    background-image: url(../Images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+  
+  h1 {
+    font-size: 80px;
+    color: rgb(182, 41, 182);
+    text-align: center;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+    font-family:  'Lobster', cursive;;
+    }
+  
+  @-webkit-keyframes
+  glow {
+    from {
+      text-shadow: 0 0 10px rgb(248, 209, 80), 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #8bbbdb, 0 0 50px #e60073, 0 0 60px #7ff35c, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px rgb(100, 61, 241), 0 0 30px #afddfc, 0 0 40px #e0fc42, 0 0 50px #ff4da6, 0 0 60px #77063e, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+    }
+    
+h2 {
+    font-size: 30px;
+    color: rgb(217, 105, 245);
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family: 'Lobster', cursive;
+    }
+
+h3 {
+    font-family:'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+    }
+h4 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #25ebca;
+    text-shadow: #0d30a5;
+    text-align: center;
+    }
+ul {
+    list-style-type: none;
+    }
+li {
+    font-family:'Dancing Script', cursive;
+    font-size: 28px;
+    }
+input[type=radio] {
+    border: 2px;
+    width: 20px;
+    height: 2em;
+    }
+p   {
+    font-family:  'Lobster', cursive;
+    font-size: 26px;
+    }
+
+ .quizContainer {
+    background-image: url("../Images/help.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 6px;
+    width: 75%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: relative;
+    }
+.quizcontainer #quiz1
+    {
+    text-shadow:1px 1px 2px rgb(138, 29, 114);
+    font-family:'Dancing Script', cursive;
+    font-size: 27px;
+    }
+
+
+.nextButton {
+    box-shadow: 3px 3px 5px rgb(235, 116, 205);
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(136, 196, 211);
+    color: rgb(77, 59, 160);
+    font-family:  'Lobster', cursive;;
+    position: relative;
+    margin: auto;
+	font-size:10px;
+	font-weight:bold;
+    padding-top: 5px;
+	float:right;
+    right:30%;
+    top: 80%;
+    }
+
+.preButton {
+    box-shadow: 3px 3px 5px #888;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(216, 166, 226);
+    color: rgb(67, 28, 131);
+    font-family:   'Lobster', cursive;;
+    position: relative;
+    margin: auto;
+	font-size:10px;
+	font-weight:bold;
+    padding-top: 5px;
+	float:left;
+    left:30%;
+    top:80%;
+    }
+
+.question {
+    font-family:'Dancing Script', cursive;
+    font-size: 30px;
+    text-shadow: purple;
+    color: darkslateblue;
+	font-weight:bold;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 6px;
+    text-align: center;
+    }
+.quizMessage {
+    background-image: url("../Images/help.png") ;
+    border-radius: 6px;
+    border-style: dotted ;
+    border-width: thick;
+    width: 220px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+	font-size: 30px;
+	font-weight: thick;
+    font-family:'Dancing Script', cursive;
+    color: rgb(3, 3, 26);
+	position:absolute;
+	top:30%;
+	left:40%;
+}
+.choiceList {
+    font-family: 'Dancing Script', cursive;
+    color: #ed12cd;
+	font-size:15px;
+	font-weight:bold;
+}
+.result {
+    width: 50%;
+    height: auto;
+    border-radius: 6px;
+    background-image:url(./assets/images);
+    margin: auto;
+	color:rgb(106, 19, 156);
+    text-align: center;
+	font-size:25px;
+    font-family:'Dancing Script', cursive;
+	font-weight:bold;
+	position:absolute;
+	top:50%;
+	left:30%;
+}
+
+#timer-beep {
+    position: absolute;
+    top: 30%;
+    color:rgb(106, 19, 156);
+    font-size:25px;
+    font-family:'Dancing Script', cursive;
+}
+
+div#footer {
+    clear: both;
+    margin-top: 60px;
+    position: center;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 10px;
+    font-family:'Thasadith', sans-serif;
+    color: rgb(128, 3, 128);
+    background-color: #e0fc42;
+}
