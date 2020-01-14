@@ -13,7 +13,7 @@ body{
   
   h1 {
     font-size: 80px;
-    color: rgb(182, 41, 182);
+    color: purple;
     text-align: center;
     -webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -33,7 +33,7 @@ body{
     
 h2 {
     font-size: 30px;
-    color: rgb(217, 105, 245);
+    color: purple;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
