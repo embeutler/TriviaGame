@@ -33,7 +33,7 @@ body{
     
 h2 {
     font-size: 30px;
-    color: rgb(217, 105, 245);
+    color: rgb(100, 167, 194);
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -140,7 +140,7 @@ p   {
     text-align: center;
     }
 .quizMessage {
-    background-image: url("../Images/help.png") ;
+    background-color: rgb(100, 167, 194);
     border-radius: 6px;
     border-style: dotted ;
     border-width: thick;
@@ -167,7 +167,7 @@ p   {
     width: 50%;
     height: auto;
     border-radius: 6px;
-    background-image:url(./assets/images);
+   background-color: rgb(100, 167, 194);
     margin: auto;
 	color:rgb(106, 19, 156);
     text-align: center;
