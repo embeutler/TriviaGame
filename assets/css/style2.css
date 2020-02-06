@@ -94,8 +94,8 @@ p   {
 .nextButton {
     box-shadow: 3px 3px 5px rgb(235, 116, 205);
     border-radius: 6px;
-    width: 120px;
-    height: 40px;
+    width: 160px;
+    height: 80px;
     text-align: center;
     background-color: rgb(182, 250, 161);
     color: rgb(161, 10, 221);
@@ -113,8 +113,8 @@ p   {
 .preButton {
     box-shadow: 3px 3px 5px rgb(176, 86, 236);
     border-radius: 6px;
-    width: 120px;
-    height: 40px;
+    width: 160px;
+    height: 80px;
     text-align: center;
     background-color: rgb(182, 250, 161);
     color: rgb(161, 10, 221);
