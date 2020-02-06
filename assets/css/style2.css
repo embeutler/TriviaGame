@@ -1,25 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Lobster+Two&display=swap');
 body{
-    font-size: 20px;
-    font-family:  'Lobster', cursive;; 
-    color:  rgb(100, 167, 194);
-    font-weight: 300;
-    text-align: center;
     background-image: url(../Images/back2.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    }
+    background-size: 100%; }
 
-  
-  h1 {
+header h1 {
     font-size: 80px;
     color: rgb(100, 167, 194);
     text-align: center;
     -webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 3s ease-in-out infinite alternate;
-    font-family:  'Lobster', cursive;;
-    }
+    font-family:  'Lobster', cursive;}
   
   @-webkit-keyframes
   glow {
@@ -38,32 +30,29 @@ h2 {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    font-family: 'Lobster', cursive;
-    }
+    font-family: 'Lobster', cursive;}
 
 h3 {
     font-family:'Lobster', cursive;
     font-size: 30px;
-    text-align: center;
-    }
+    text-align: center;}
 
 ul {
-    list-style-type: none;
-    }
+    list-style-type: none;}
+
 li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    color:rgb(177, 4, 177);
-    }
+    color:rgb(177, 4, 177);}
+
 input[type=radio] {
-    border: 2px;
-    width: 15px;
-    height: 1em;
-    }
+   border: 2px;
+   width: 15px;
+   height: 1em;}
+
 p   {
-    font-family:  Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    }
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 26px;}
 
  .quizContainer {
     border-radius: 6px;
@@ -71,17 +60,15 @@ p   {
     margin: auto;
     padding-top: 5px;
     padding-bottom: 25px;
-    position: relative;
-    }
-.quizcontainer #quiz1
-    {    color: rgb(76, 7, 187);
+    position: relative;}
+
+.quizcontainer #quiz1{ 
+    font-family:'Dancing Script', cursive;
+    font-size: 40px;    
+    color: rgb(76, 7, 187);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-    font-family:'Dancing Script', cursive;
-    font-size: 40px;
-    }
-
+    animation: glow 1s ease-in-out infinite alternate;}
 
 .nextButton {
     box-shadow: 3px 3px 5px rgb(235, 116, 205);
@@ -94,12 +81,11 @@ p   {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
-	font-size: 14px;
+    font-size: 14px;
     padding-top: 5px;
-float:right;
+    float:right;
     right:30%;
-    top: 80%;
-    }
+    top: 80%;}
 
 .preButton {
     box-shadow: 3px 3px 5px rgb(176, 86, 236);
@@ -112,12 +98,11 @@ float:right;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
-	font-size:14px;
+    font-size:14px;
     padding-top: 5px;
-	float:left;
+    float:left;
     left:30%;
-    top:80%;
-    }
+    top:80%;}
 
 .question {
     font-family: Arial, Helvetica, sans-serif;
@@ -128,32 +113,30 @@ float:right;
     height: auto;
     margin: auto;
     border-radius: 6px;
-    text-align: center;
-    }
+    text-align: center;}
+
 .quizMessage {
-    background-origin: padding-box;
     background-color: rgb(255, 172, 116);
     border-radius: 6px;
     border-style: solid ;
     border-color: lime ;
-    border-width: thick;
-    width: 320px;
-    height: 220px;
+    border-width: 5px;
+    width: 120px;
+    height: 120px;
     margin: auto;
     text-align: center;
     padding: 1px;
-	font-size: 30px;
-	font-weight: thick;
+    font-size: 24px;
+    font-weight: thick;
     font-family:'Dancing Script', cursive;
     color: rgb(3, 3, 26);
-	position:absolute;
-	top:30%;
-	left:40%;
-}
+    position:absolute;}
+
 .choiceList {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ed12cd;
-	font-size:15px;}
+    font-size:15px;}
+
 .result {
     width: 50%;
     height: auto;
