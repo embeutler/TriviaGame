@@ -84,7 +84,7 @@ p   {
 .quizcontainer #quiz1
     {
     text-shadow:1px 1px 2px rgb(138, 29, 114);
-    font-family:'Dancing Script', cursive;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 27px;
     }
 
@@ -92,12 +92,12 @@ p   {
 .nextButton {
     box-shadow: 3px 3px 5px rgb(235, 116, 205);
     border-radius: 6px;
-    width: 100px;
+    width: 120px;
     height: 40px;
     text-align: center;
     background-color: rgb(182, 250, 161);
-    color: rgb(77, 59, 160);
-    font-family:  'Lobster', cursive;;
+    color: rgb(161, 10, 221);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
     margin: auto;
 	font-size:10px;
@@ -111,12 +111,12 @@ p   {
 .preButton {
     box-shadow: 3px 3px 5px rgb(176, 86, 236);
     border-radius: 6px;
-    width: 100px;
+    width: 120px;
     height: 40px;
     text-align: center;
     background-color: rgb(182, 250, 161);
-    color: rgb(67, 28, 131);
-    font-family:   'Lobster', cursive;;
+    color: rgb(161, 10, 221);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
     margin: auto;
 	font-size:10px;
@@ -128,10 +128,10 @@ p   {
     }
 
 .question {
-    font-family:'Dancing Script', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-shadow: purple;
-    color: darkslateblue;
+    color: rgb(33, 6, 202);
 	font-weight:bold;
     width: 100%;
     height: auto;
@@ -159,7 +159,7 @@ p   {
 	left:40%;
 }
 .choiceList {
-    font-family: 'Dancing Script', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ed12cd;
 	font-size:15px;
 	font-weight:bold;
@@ -168,7 +168,7 @@ p   {
     width: 50%;
     height: auto;
     border-radius: 6px;
-   background-color: rgb(100, 167, 194);
+   background-color: rgb(201, 255, 100);
     margin: auto;
 	color:rgb(106, 19, 156);
     text-align: center;
@@ -196,7 +196,7 @@ div#footer {
     left: 0;
     text-align: center;
     font-size: 10px;
-    font-family:'Thasadith', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(128, 3, 128);
     background-color: #e0fc42;
 }
