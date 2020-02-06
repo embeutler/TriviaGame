@@ -1,2 +1,2 @@
-# TriviaGame
-TriviaGame homework - # JavaScript Assignment 2
+# Unicorn Trivia Game
+- Built with HTML5, CSS & JavaScript -  
