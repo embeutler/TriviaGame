@@ -1,34 +1,44 @@
 <html>
+  
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="assets/css/style2.css"">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-                                                                         
-<title>Unicorn Quiz</title> 
-                                                                                 </head>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>                                              
+<title>Unicorn Quiz</title>                                                                                 
+</head>
+                                                                                 
 <body>
 
-    <header> <h1>How much do you know about unicorns?</h1> </header>  
-    <div class="quizContainer" sytle="container-fluid: well-lg" >
-      <div id="quiz1" class="text-center"> 
-            <center><img src="./assets/Images/unicorn-silhouette-clipart-png-14.png" class="img-responsive" height="100px" width="100px" ></center>
-            <div class="quizMessage"></div> <br>
-          <span id="iTimeShow"> You have: </span><br/><span id='timer' style="font-size:20px; font-weight:bolder;">
-               <div class="timer">
-  <h2 style="color:rgb(75, 15, 238);">  <span class="minutes">01</span>:<span class="seconds">00</span>
-                    </div>
+<header> <h1>How much do you know about unicorns?</h1> </header>  
+  
+<div class="quizContainer" sytle="container-fluid: well-lg" >
+   <div id="quiz1" class="text-center"> 
+                                      
+       
+                       <span id="iTimeShow"> You have: </span><br/><span id='timer' style="font-size:20px; font-weight:bolder;">
+             <div class="timer"> <h2 style="color:rgb(75, 15, 238);"> <span class="minutes">01</span>:<span class="seconds">00</span>
+             </div>
+ </div>
+                       <div class="quizMessage"></div>
+      
+ <center><img src="./assets/Images/unicorn-silhouette-clipart-png-14.png" class="img-responsive" height="100px" width="100px" ></center>
+          
+ <div class="question">  </div>
+                     
+ <ul class="choiceList">  </ul>
+                      
+ <div class="result"></div>
+ 
+ <button class="preButton"> Previous </button>
+ <button class="nextButton"> Next </button>       
+
 </div>
-<div class="question"></div>
-        <ul class="choiceList"></ul>
-        <div class="result"></div>
-        <button class="preButton"> Previous Question</button>
-        <button class="nextButton">Next Question</button>       
-        <script type="text/javascript" src="./assets/javascript/app2.js"> </script>
 
-    </div>
+                           <script type="text/javascript" src="./assets/javascript/app2.js"> </script>
 
+  
     <footer>
       <div id="footer" class="container">
      Brought to you by Magic <br>
