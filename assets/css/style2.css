@@ -74,7 +74,7 @@ p   {
     position: relative;
     }
 .quizcontainer #quiz1
-    {    color: orangered;
+    {    color: rgb(76, 7, 187);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
@@ -94,7 +94,7 @@ p   {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
-	font-size: 19px;
+	font-size: 14px;
     padding-top: 5px;
 	float:right;
     right:30%;
@@ -112,7 +112,7 @@ p   {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
-	font-size:19px;
+	font-size:14px;
     padding-top: 5px;
 	float:left;
     left:30%;
@@ -182,7 +182,7 @@ div#footer {
     clear: both;
     margin-top: 60px;
     position: center;
-    bottom: 0;
+    padding-top: 30px;
     left: 0;
     text-align: center;
     font-size: 10px;
