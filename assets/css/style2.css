@@ -24,10 +24,10 @@ body{
   @-webkit-keyframes
   glow {
     from {
-      text-shadow: 0 0 10px rgb(248, 209, 80), 0 0 20px #fff, 0 0 30px #fa89c2, 0 0 40px #aedfff, 0 0 50px #faacd3, 0 0 60px #b0fa9a, 0 0 70px #fffc51;
+      text-shadow: 0 0 10px rgb(248, 209, 80), 0 0 20px rgb(247, 51, 51), 0 0 30px #fa89c2, 0 0 40px #aedfff, 0 0 50px #faacd3, 0 0 60px #b0fa9a, 0 0 70px #fffc51;
     }
     to {
-      text-shadow: 0 0 20px rgb(241, 223, 61), 0 0 30px #affcf2, 0 0 40px #e0fc42, 0 0 50px #f38cc0, 0 0 60px #fa91c6, 0 0 70px #77ff4d, 0 0 80px #fffc4d;
+      text-shadow: 0 0 20px rgb(142, 102, 252), 0 0 30px #affcf2, 0 0 40px #e0fc42, 0 0 50px #f38cc0, 0 0 60px #fa91c6, 0 0 70px #77ff4d, 0 0 80px #fffc4d;
     }
     }
     
@@ -57,7 +57,7 @@ ul {
     list-style-type: none;
     }
 li {
-    font-family:'Dancing Script', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 28px;
     }
 input[type=radio] {
@@ -66,7 +66,7 @@ input[type=radio] {
     height: 2em;
     }
 p   {
-    font-family:  'Lobster', cursive;
+    font-family:  Arial, Helvetica, sans-serif;
     font-size: 26px;
     }
 
@@ -82,9 +82,11 @@ p   {
     position: relative;
     }
 .quizcontainer #quiz1
-    {
-    text-shadow:1px 1px 2px rgb(138, 29, 114);
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    {    color: orangered;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-family:'Dancing Script', cursive;
     font-size: 27px;
     }
 
@@ -130,8 +132,8 @@ p   {
 .question {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    text-shadow: purple;
-    color: rgb(33, 6, 202);
+    text-shadow: 3px 3px 5px rgb(206, 235, 47);
+    color: rgb(160, 4, 199);
 	font-weight:bold;
     width: 100%;
     height: auto;
