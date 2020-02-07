@@ -6,44 +6,44 @@ var iSelectedAnswer = [];
 	var c=180;
 	var t;
     var questions = [{
-        question: "1. Do you love Unicorns?",
-        choices: ["yes", "no", "silly who doesnt"],
-        correctAnswer: 2
+        question: "Do you love unicorns?",
+        choices: ["Of Course", "Silly Who Doesnt", "Not for me"],
+        correctAnswer: 0, 1
     }, {
-        question: " Do Unicorns have magical powers? ",
-        choices: ["yes", "no",  "no way only wizards do"],
+        question: "Do unicorns have magical powers? ",
+        choices: ["Yes!", "No way only wizards do!"],
         correctAnswer: 0
     }, {
-        question: "What do Unicorns eat?",
-        choices: ["candy", "children", "neither"],
-        correctAnswer: 1
-    }, {
-        question: "What animal is commonly mistaken for Unicorn?",
-        choices: ["rhino", "horse", "narwhale"],
+        question: "What do unicorns eat?",
+        choices: ["Cotten Candy", "Children", "None of the above"],
         correctAnswer: 0
     }, {
-        question: "What country was a unicorn liar recently discovered in?",
+        question: "What animal is commonly mistaken for unicorn?",
+        choices: ["Rhino", "Horse", "Narwhale"],
+        correctAnswer: 0
+    }, {
+        question: "What country was a unicorn liar discovered?",
         choices: ["USA", "China", "North Korea"],
         correctAnswer: 2
     },{
-        question: "How many Unicorns in a family?",
+        question: "How many unicorns in a family?",
         choices: ["2-3", "4-5", "10-12"],
         correctAnswer: 1
     },{
         question: "Do unicorns have a horn?",
-        choices: ["yes", "No", "what is a horn"],
+        choices: ["Yes", "No", "What is a horn"],
         correctAnswer: 0
     },{
         question: "What color is a unicorn fart?",
-        choices: ["purple", "brown", "rainbow"],
+        choices: ["Purple", "Brown", "Rainbow"],
         correctAnswer: 2
     },{
-        question: "What is the Most Popular color for unicorns?",
-        choices: ["Black", "white", "brown"],
+        question: "What is the most common color for unicorns?",
+        choices: ["Black", "White", "Brown"],
         correctAnswer: 1
     },{
-        question: "Are Unicorns alive today?",
-        choices: ["yes", "no", "trick question"],
+        question: "Are unicorns alive today?",
+        choices: ["Yes", "No", "Trick Question"],
         correctAnswer: 0
     }];
     
