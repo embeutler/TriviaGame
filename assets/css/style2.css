@@ -38,47 +38,39 @@ h2 {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    font-family: 'Lobster', cursive;
-    }
-
-h3 {
-    font-family:'Lobster', cursive;
-    font-size: 30px;
-    text-align: center;
-    }
+    font-family: 'Lobster', cursive; }
 
 ul {
-    list-style-type: none;
-    }
+    list-style-type: none; }
+
 li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
-    color:rgb(177, 4, 177);
-    }
+    color:rgb(177, 4, 177); }
+
 input[type=radio] {
     border: 2px;
     width: 15px;
-    height: 1em;
-    }
+    height: 1em;}
 p   {
     font-family:  Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    }
+    font-size: 26px; }
 
  .quizContainer {
     border-radius: 6px;
     width: 75%;
     margin: auto;
+    bottom-margin:15pt;
     padding-top: 5px;
     padding-bottom: 25px;
-    position: relative;
-    }
-.quizcontainer #quiz1
-    {    color: rgb(76, 7, 187);
+    position: relative;}
+
+.quizcontainer #quiz1{
+     color: rgb(76, 7, 187);
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    font-family:'Dancing Script', cursive;
+    font-family:'Lobster', cursive;
     font-size: 40px;
     }
 
@@ -94,9 +86,9 @@ p   {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
-	font-size: 14px;
+    font-size: 14px;
     padding-top: 5px;
-float:right;
+    float:right;
     right:30%;
     top: 80%;
     }
@@ -112,12 +104,11 @@ float:right;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     margin: auto;
-	font-size:14px;
+    font-size:14px;
     padding-top: 5px;
-	float:left;
+    float:left;
     left:30%;
-    top:80%;
-    }
+    top:80%;}
 
 .question {
     font-family: Arial, Helvetica, sans-serif;
@@ -128,55 +119,50 @@ float:right;
     height: auto;
     margin: auto;
     border-radius: 6px;
-    text-align: center;
-    }
+    text-align: center;}
+
 .quizMessage {
-    background-origin: padding-box;
     background-color: rgb(255, 172, 116);
     border-radius: 6px;
     border-style: solid ;
     border-color: lime ;
     border-width: thick;
-    width: 320px;
-    height: 220px;
     margin: auto;
     text-align: center;
     padding: 1px;
-	font-size: 30px;
-	font-weight: thick;
+    font-size: 30px;
     font-family:'Dancing Script', cursive;
     color: rgb(3, 3, 26);
-	position:absolute;
-	top:30%;
-	left:40%;
-}
+    position:absolute;
+    top:10%;
+    left:40%;}
+
 .choiceList {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #ed12cd;
-	font-size:15px;}
+    font-size:15px;}
+
 .result {
     width: 50%;
     height: auto;
     border-radius: 6px;
-   background-color: rgb(201, 255, 100);
+    background-color: rgb(201, 255, 100);
     margin: auto;
-	color:rgb(106, 19, 156);
+    color:rgb(106, 19, 156);
     text-align: center;
-	font-size:25px;
+    font-size:25px;
     font-family:'Dancing Script', cursive;
-	font-weight:bold;
-	position:absolute;
-	top:50%;
-	left:30%;
-}
+    font-weight:bold;
+    position:absolute;
+    top:20%;
+    left:30%;}
 
 #timer-beep {
     position: absolute;
     top: 30%;
     color:rgb(106, 19, 156);
     font-size:25px;
-    font-family: 'Lobster', cursive;
-}
+    font-family: 'Lobster', cursive;}
 
 div#footer {
     clear: both;
@@ -188,5 +174,4 @@ div#footer {
     font-size: 10px;
     font-family: 'Dancing Script', cursive;
     color: rgb(128, 3, 128);
-    background-color: #e0fc42;
-}
+    background-color: #e0fc42;}
