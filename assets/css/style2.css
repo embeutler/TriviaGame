@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lobster|Lobster+Two&display=swap');
+
 body{
+    font-size: 20px;
+    font-family:  'Lobster', cursive;; 
+    color:  rgb(100, 167, 194);
+    font-weight: 300;
+    text-align: center;
     background-image: url(../Images/back2.jpg);
     background-repeat: no-repeat;
-    background-size: auto; 
-text-aling: center;}
+    background-size: 100%;
+}
 
 header h1 {
     font-size: 80px;
