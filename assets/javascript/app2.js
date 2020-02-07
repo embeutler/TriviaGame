@@ -7,8 +7,8 @@ var iSelectedAnswer = [];
 	var t;
     var questions = [{
         question: "Do you love Unicorns?",
-        choices: ["yes", "no", "silly who doesnt"],
-        correctAnswer: 0,2
+        choices: ["yes", "no", "what is a Unicorn"],
+        correctAnswer: 0
     }, {
         question: " Do Unicorns have magical powers? ",
         choices: ["yes", "no",  "no way only wizards do"],
@@ -129,8 +129,8 @@ var iSelectedAnswer = [];
 		else 
 		{ quizOver = false;
       $('#iTimeShow').html('Time Remaining:'); iSelectedAnswer = [];
-			$(document).find(".nextButton").text("Next Question");
-			$(document).find(".preButton").text("Previous Question");
+			$(document).find(".nextButton").text("Next");
+			$(document).find(".preButton").text("Previous");
 			 $(".preButton").attr('disabled', 'disabled');
 			resetQuiz();
 			viewingAns = 1;
