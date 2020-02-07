@@ -2,7 +2,8 @@
 body{
     background-image: url(../Images/back2.jpg);
     background-repeat: no-repeat;
-    background-size: 100%; }
+    background-size: auto; 
+text-aling: center;}
 
 header h1 {
     font-size: 80px;
