@@ -4,7 +4,7 @@
 body{
     font-size: 20px;
     font-family:  'Lobster', cursive;
-    color: rgb(0, 0, 0);
+    color:  rgb(0, 0, 0);
     font-weight: 300;
     text-align: center;
     background-image: url(../Images/background.png);
@@ -58,7 +58,8 @@ input[type=radio] {
     height: 1em;
 align-items: center;}
 p   {text-align: center;
-     font-family:  'Lobster', cursive; font-size: 26px; }
+     font-family:  'Lobster', cursive;;
+    font-size: 26px; }
 
  .quizContainer {
     border-radius: 6px;
@@ -91,8 +92,9 @@ position: relative;}
     color: rgb(161, 10, 221);
    font-family:  'Lobster', cursive;
     position: relative;
-    font-size: 18px;
-    float: inline;
+    margin: auto;
+    font-size: 20px;
+    float:inherit;
     }
 
 .preButton {
@@ -105,8 +107,9 @@ position: relative;}
     color: rgb(161, 10, 221);
      font-family:  'Lobster', cursive;
     position: relative;
-    font-size:18px;
-    float:inline}
+    margin: auto;
+    font-size:20px;
+    float:inherit}
 
 .question {
     font-family:  'Lobster', cursive;
